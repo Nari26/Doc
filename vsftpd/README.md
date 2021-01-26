@@ -1,4 +1,4 @@
-# FTP Server
+# FTP Server/Client
 
 
 Sharing memories, large files, or even confidential documents, have become an effortless task for people across the world today.
@@ -7,11 +7,11 @@ But being able to share files from one location to another is not enough.
 
 Data protection has become increasingly important with the number of security threats rising over the internet.
 
-What to do
+## What to Do
 
 Create an FTP server to backup your files to the cloud and transfer them securely over the internet.
 
-Build an FTP Host server.
+## Build an FTP Host server.
 
 Implement functionality to transfer files via the FTP protocol (use VSFTPD).
 
@@ -21,9 +21,8 @@ Implement functionality to securely communicate using SSL protocol - buy a SSL c
 
 Deploy your server on Heroku.
 
- 
 
-Build an FTP Client
+## Build an FTP Client
 Create a simple website or GUI application to upload files using FTP protocol.
 
 Scope of the project
