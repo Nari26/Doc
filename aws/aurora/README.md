@@ -27,5 +27,5 @@ Amazon Aurora is a MySQL and PostgreSQL-compatible relational database built for
     - MySQL and PostgreSQL compatibility make Amazon Aurora a compelling target for database migrations to the cloud.
 
 
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+
+![Aurora](Aurora-1.PNG)
