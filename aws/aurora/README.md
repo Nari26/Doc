@@ -33,6 +33,6 @@ Amazon Aurora is a MySQL and PostgreSQL-compatible relational database built for
 ![Aurora](Aurora-4.PNG)
 
 ## AWS Console
-![Alt Aurora](Aurora-db-1.PNG)
+![Alt Aurora](Aurora-db-1.png)
 ![Aurora](Aurora-db-2.PNG)
 ![Aurora](Aurora-db-3.PNG)
