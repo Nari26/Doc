@@ -7,7 +7,7 @@ But being able to share files from one location to another is not enough.
 
 Data protection has become increasingly important with the number of security threats rising over the internet.
 
-## What to Do
+## What to do
 
 Create an FTP server to backup your files to the cloud and transfer them securely over the internet.
 
@@ -28,6 +28,6 @@ Create a simple website or GUI application to upload files using FTP protocol.
 Scope of the project
 Concepts: File Transfer, Networking, Deployment
 
-Skills: FTP, SSL, Server Side Scripting
+** Skills **: FTP, SSL, Server Side Scripting
 
 Tech: VSFTPD server, Bash Commands, Heroku
