@@ -1,0 +1,31 @@
+# Set registry keys to modify the download permissions in Internet Explorer
+
+$ieSecurityRegistryPath = "HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3"
+
+# Enable File Download
+Set-ItemProperty -Path $ieSecurityRegistryPath -Name "1001" -Value 0  # 1001: File download (0 = enabled, 3 = disabled)
+
+# Enable Automatic Prompting for File Downloads
+Set-ItemProperty -Path $ieSecurityRegistryPath -Name "1002" -Value 0  # 1002: Automatic prompting for file downloads (0 = enabled, 3 = disabled)
+
+Write-Host "Internet Explorer download permissions have been updated."
+
+
+Set-ExecutionPolicy Bypass -Scope Process -Force
+[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12
+iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+choco install googlechrome -y
+
+
+######## TO-DO
+choco install steam -y
+
+Create an installation script to download AoE2 using SteamCMD. Create a file called install_aoe2.txt with the following content:
+
+login anonymous
+force_install_dir C:\AOE2
+app_update 813780 validate
+quit
+
+steamcmd +runscript "C:\install_aoe2.txt"
